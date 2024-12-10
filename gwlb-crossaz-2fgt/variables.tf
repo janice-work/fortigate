@@ -383,7 +383,7 @@ variable "fgtami" {
 //  Existing SSH Key on the AWS 
 // Ask customer to provide RSA key for FortiGate VM
 variable "keyname" {
-  default = "recharge-hk"
+  default = "key"
 }
 
 //  Admin HTTPS access port
